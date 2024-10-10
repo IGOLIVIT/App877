@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ArtModel" representedClassName="ArtModel" syncable="YES" codeGenerationType="class">
+        <attribute name="artDescr" optional="YES" attributeType="String"/>
+        <attribute name="artGramm" optional="YES" attributeType="String"/>
+        <attribute name="artInstr" optional="YES" attributeType="String"/>
+        <attribute name="artName" optional="YES" attributeType="String"/>
+        <attribute name="artPhoto" optional="YES" attributeType="String"/>
+        <attribute name="artType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NotesModel" representedClassName="NotesModel" syncable="YES" codeGenerationType="class">
+        <attribute name="notName" optional="YES" attributeType="String"/>
+        <attribute name="notPhoto" optional="YES" attributeType="String"/>
+        <attribute name="notSub" optional="YES" attributeType="String"/>
+        <attribute name="notTxt" optional="YES" attributeType="String"/>
+    </entity>
+</model>
