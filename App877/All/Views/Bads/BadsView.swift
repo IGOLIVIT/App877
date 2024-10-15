@@ -48,60 +48,6 @@ struct BadsView: View {
                     
                     LazyVStack {
                         
-                        Button(action: {
-                            
-                            withAnimation(.spring()) {
-                                
-                                viewModel.isNot1 = true
-                            }
-                            
-                        }, label: {
-                            
-                            VStack(alignment: .leading, spacing: 9) {
-                                
-                                Image("im4")
-                                    .resizable()
-                                    .frame(maxWidth: .infinity)
-                                    .frame(height: 180)
-                                
-                                Text("Everything has its time.")
-                                    .foregroundColor(.white)
-                                    .font(.system(size: 26, weight: .medium))
-                                
-                                Text("How to take dietary supplements so that they work?")
-                                    .foregroundColor(.white)
-                                    .font(.system(size: 14, weight: .regular))
-                            }
-                        })
-                        .padding(.bottom)
-                        
-                        Button(action: {
-                            
-                            withAnimation(.spring()) {
-                                
-                                viewModel.isNot2 = true
-                            }
-                            
-                        }, label: {
-                            
-                            VStack(alignment: .leading, spacing: 9) {
-                                
-                                Image("im3")
-                                    .resizable()
-                                    .frame(maxWidth: .infinity)
-                                    .frame(height: 180)
-                                
-                                Text("What are dietary supplements?")
-                                    .foregroundColor(.white)
-                                    .font(.system(size: 26, weight: .medium))
-                                
-                                Text("Benefit or harm?")
-                                    .foregroundColor(.white)
-                                    .font(.system(size: 14, weight: .regular))
-                            }
-                        })
-                        .padding(.bottom)
-                        
                         ForEach(viewModel.notes, id: \.self) { index in
                             
                             Button(action: {
